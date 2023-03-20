@@ -1,0 +1,9 @@
+model: 'AlexNet'
+data_loader: 'MnistDataLoader'
+loss: 'cross_entropy'
+optimizer: 'Adam'
+epoch: 10
+lr: 0.001
+batch_size: 32
+data_path: 'data'
+device: 'cuda:0'
